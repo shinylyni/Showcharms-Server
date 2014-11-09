@@ -163,7 +163,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Altaria-Mega",
 		megaEvolves: "Altaria",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -270,7 +270,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Audino-Mega",
 		megaEvolves: "Audino",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -321,7 +321,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Beedrill-Mega",
 		megaEvolves: "Beedrill",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -477,7 +477,7 @@ exports.BattleItems = {
 		id: "blueorb",
 		name: "Blue Orb",
 		spritenum: 0,
-		isUnreleased: true,
+		
 		onStart: function (pokemon) {
 			if (pokemon.isActive && pokemon.baseTemplate.species === 'Kyogre') {
 				var template = this.getTemplate('Kyogre-Primal');
@@ -570,7 +570,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Camerupt-Mega",
 		megaEvolves: "Camerupt",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -1041,7 +1041,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Diancie-Mega",
 		megaEvolves: "Diancie",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -1578,7 +1578,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Gallade-Mega",
 		megaEvolves: "Gallade",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -1675,7 +1675,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Glalie-Mega",
 		megaEvolves: "Glalie",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -2216,7 +2216,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Latias-Mega",
 		megaEvolves: "Latias",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -2231,7 +2231,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Latios-Mega",
 		megaEvolves: "Latios",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -2408,7 +2408,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Lopunny-Mega",
 		megaEvolves: "Lopunny",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -2732,7 +2732,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Metagross-Mega",
 		megaEvolves: "Metagross",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -3229,7 +3229,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Pidgeot-Mega",
 		megaEvolves: "Pidgeot",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -3503,7 +3503,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Rayquaza-Mega",
 		megaEvolves: "Rayquaza",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -3588,7 +3588,7 @@ exports.BattleItems = {
 		id: "redorb",
 		name: "Red Orb",
 		spritenum: 0,
-		isUnreleased: true,
+		
 		onStart: function (pokemon) {
 			if (pokemon.isActive && pokemon.baseTemplate.species === 'Groudon') {
 				var template = this.getTemplate('Groudon-Primal');
@@ -3783,7 +3783,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Sableye-Mega",
 		megaEvolves: "Sableye",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -3838,7 +3838,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Salamence-Mega",
 		megaEvolves: "Salamence",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -3853,7 +3853,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Sceptile-Mega",
 		megaEvolves: "Sceptile",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -3930,7 +3930,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Sharpedo-Mega",
 		megaEvolves: "Sharpedo",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -4101,7 +4101,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Slowbro-Mega",
 		megaEvolves: "Slowbro",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -4290,7 +4290,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Steelix-Mega",
 		megaEvolves: "Steelix",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
@@ -4381,7 +4381,7 @@ exports.BattleItems = {
 		spritenum: 0,
 		megaStone: "Swampert-Mega",
 		megaEvolves: "Swampert",
-		isUnreleased: true,
+		
 		onTakeItem: function (item, source) {
 			if (item.megaEvolves === source.baseTemplate.baseSpecies) return false;
 			return true;
