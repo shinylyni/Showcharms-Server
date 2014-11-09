@@ -1,0 +1,5 @@
+[2014-11-08T01:11:37.869Z] (lobby) StellarWind Administrator was promoted to Voice by Ruko.
+[2014-11-08T01:11:56.542Z] (lobby) StellarWind was promoted to Voice by Ruko.
+[2014-11-08T01:11:59.760Z] (lobby) StellarWind was promoted to Driver by Ruko.
+[2014-11-08T01:12:03.491Z] (lobby) StellarWind was promoted to Moderator by Ruko.
+[2014-11-08T01:12:43.056Z] (lobby) (Stellarwind Administrator was demoted to regular user by Ruko.)
