@@ -1702,7 +1702,7 @@ exports.BattleFormatsData = {
 		eventPokemon: [
 			{"generation":3,"level":10,"gender":"M","abilities":["insomnia"],"moves":["peck","astonish"]}
 		],
-		tier: "SU"
+		tier: "LC"
 	},
 	honchkrow: {
 		randomBattleMoves: ["substitute","superpower","suckerpunch","bravebird","roost","heatwave","pursuit"],
@@ -4402,7 +4402,7 @@ exports.BattleFormatsData = {
 	},
 	ferroseed: {
 		randomBattleMoves: ["spikes","stealthrock","leechseed","seedbomb","protect","thunderwave","gyroball"],
-		tier: "SU"
+		tier: "LC"
 	},
 	ferrothorn: {
 		randomBattleMoves: ["spikes","stealthrock","leechseed","powerwhip","thunderwave","protect"],
