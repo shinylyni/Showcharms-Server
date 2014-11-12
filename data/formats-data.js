@@ -175,8 +175,8 @@ exports.BattleFormatsData = {
 		tier: "LC"
 	},
 	fearow: {
-		randomBattleMoves: ["return","drillpeck","doubleedge","uturn","quickattack","pursuit","drillrun","roost"],
-		randomDoubleBattleMoves: ["return","drillpeck","doubleedge","uturn","quickattack","drillrun","protect"],
+		randomBattleMoves: ["return","drillpeck","doubleedge","uturn","quickattack","pursuit","drillrun","roost","volttackle"],
+		randomDoubleBattleMoves: ["return","drillpeck","doubleedge","uturn","quickattack","drillrun","volttackle","protect"],
 		tier: "SU"
 	},
 	ekans: {

@@ -15418,5 +15418,37 @@ exports.BattleMovedex = {
 		},
 		target: "normal",
 		type: "Water"
+	},
+		"drillsatack": {
+		accuracy: 90,
+		basePower: 0,
+		damageCallback: function (pokemon) {
+			return (this.random(50, 301) * pokemon.level) / 100;
+		},
+		category: "Physical",
+		desc: "For when you absolutely must fite gem and get bage.",
+		shortDesc: "For when you absolutely must fite gem and get bage.",
+		id: "drillsatack",
+		name: "Drills Atack",
+		pp: 40,
+		priority: 0,
+		secondary: false,
+		target: "normal",
+		type: "Normal"
+	},
+		"odersluth": {
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		desc: "Makes gostly got drilled holes in him and faint",
+		shortDesc: "Makes gostly got drilled holes in him and faint",
+		id: "odersluth",
+		name: "Oder Sluth",
+		pp: 40,
+		priority: 0,
+		isBounceable: false,
+				volatileStatus: 'foresight',
+		target: "normal",
+		type: "Normal"
 	}
 };
