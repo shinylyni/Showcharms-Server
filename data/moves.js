@@ -15426,8 +15426,8 @@ exports.BattleMovedex = {
 			return (this.random(50, 301) * pokemon.level) / 100;
 		},
 		category: "Physical",
-		desc: "For when you absolutely must fite gem and get bage.",
-		shortDesc: "For when you absolutely must fite gem and get bage.",
+		desc: "When you absolutely must fite gem and get bage.",
+		shortDesc: "When you absolutely must fite gem and get bage.",
 		id: "drillsatack",
 		name: "Drills Atack",
 		pp: 40,
