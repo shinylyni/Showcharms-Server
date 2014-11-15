@@ -139,6 +139,7 @@ exports.herokuhack = false;
 // displayed in the client.
 exports.customavatars = {
 	'ruko': 'Ruko.png',
+	'lyni': 'Lyni.png',
 	'stellarwind': 'Stel.png'
 };
 
