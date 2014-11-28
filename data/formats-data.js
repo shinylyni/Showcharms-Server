@@ -4395,7 +4395,7 @@ exports.BattleFormatsData = {
 	},
 	ferroseed: {
 		randomBattleMoves: ["spikes","stealthrock","leechseed","seedbomb","protect","thunderwave","gyroball"],
-		tier: "SU"
+		tier: "LC"
 	},
 	ferrothorn: {
 		randomBattleMoves: ["spikes","stealthrock","leechseed","powerwhip","thunderwave","protect"],
