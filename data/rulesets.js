@@ -407,7 +407,7 @@ exports.BattleFormats = {
 	evasionmovesclause: {
 		effectType: 'Banlist',
 		name: 'Evasion Moves Clause',
-		banlist: ['Minimize', 'Double Team'],
+		banlist: ['Minimize', 'Double Team', 'Moody'],
 		onStart: function () {
 			this.add('rule', 'Evasion Moves Clause: Evasion moves are banned');
 		}
