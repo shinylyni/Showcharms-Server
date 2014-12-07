@@ -535,12 +535,21 @@ exports.BattleScripts = {
 
 	runMegaEvo: function (pokemon) {
 		var side = pokemon.side;
-		var item = this.getItem(pokemon.item);
-		if (!item.megaStone) return false;
+
 		if (side.megaEvo) return false;
-		var template = this.getTemplate(item.megaStone);
+
+		if (pokemon.baseTemplate.otherFormes) var otherForme = this.getTemplate(pokemon.baseTemplate.otherFormes[0]);
+		if (otherForme && otherForme.isMega && otherForme.requiredMove) {
+			if (pokemon.moves.indexOf(toId(otherForme.requiredMove)) < 0) return false;
+			var template = otherForme;
+		} 
+		else {
+			var item = this.getItem(pokemon.item);
+			if (!item.megaStone) return false;
+			var template = this.getTemplate(item.megaStone);
+			if (pokemon.baseTemplate.baseSpecies !== template.baseSpecies) return false;
+		}
 		if (!template.isMega) return false;
-		if (pokemon.baseTemplate.baseSpecies !== template.baseSpecies) return false;
 
 		var foeActive = side.foe.active;
 		for (var i = 0; i < foeActive.length; i++) {
